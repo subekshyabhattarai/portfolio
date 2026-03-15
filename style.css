@@ -1,0 +1,119 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+background:#333;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+/* Navigation */
+
+nav{
+background:#555;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+transition:0.3s;
+}
+
+/* Hover effect */
+
+nav a:hover{
+color:#ffd700;
+}
+
+/* Sections */
+
+section{
+max-width:900px;
+margin:30px auto;
+background:white;
+padding:30px;
+border-radius:8px;
+}
+
+/* Skills */
+
+.skills span{
+display:inline-block;
+background:#333;
+color:white;
+padding:8px 15px;
+margin:5px;
+border-radius:5px;
+transition:0.3s;
+}
+
+.skills span:hover{
+background:#ffd700;
+color:black;
+}
+
+/* Projects */
+
+.project{
+border-left:4px solid #333;
+padding-left:15px;
+margin-bottom:20px;
+}
+
+/* Form */
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* Button */
+
+button{
+background:#333;
+color:white;
+padding:12px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+/* Button Hover */
+
+button:hover{
+background:#ffd700;
+color:black;
+}
+
+/* Footer */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
